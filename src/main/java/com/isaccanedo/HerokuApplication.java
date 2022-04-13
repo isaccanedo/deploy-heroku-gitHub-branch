@@ -15,7 +15,7 @@ public class HerokuApplication {
 	
 	@RequestMapping("/")
 	public String helloHeroku() {
-		return "Hello Heroku, hello Isac!!!\nAplicação Maven Java simples, apenas para teste...";
+		return "Aplicação Java Spring Boot simples, apenas para teste...";
 	}
 
 }
